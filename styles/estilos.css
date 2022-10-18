@@ -34,6 +34,7 @@ h2 {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  line-height: 6rem;
 }
 
 h3 {
@@ -46,6 +47,26 @@ h3 {
   padding-left: 6rem;
 }
 
+.btn-primary, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin-bottom: 1rem;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: 0.2s;
+}
+.btn-primary:hover, .btn-rounded:hover {
+  background-color: darkgreen;
+}
+
+.btn-rounded {
+  border-radius: 3px;
+}
+
 nav ul li {
   margin-right: 3.5rem;
 }
@@ -54,9 +75,10 @@ nav ul li a {
 }
 
 figcaption {
+  font-size: 2.4rem;
+  line-height: 4.3rem;
   color: black;
   text-align: center;
-  font-size: large;
   padding-top: 3rem;
   padding-right: 5rem;
   padding-bottom: 3rem;
@@ -97,9 +119,10 @@ figcaption {
 }
 
 .text {
+  font-size: 1.6rem;
+  line-height: none;
+  color: black;
   background-color: whitesmoke;
-  color: rgb(0, 0, 0);
-  font-size: 16px;
   padding: 16px 32px;
 }
 

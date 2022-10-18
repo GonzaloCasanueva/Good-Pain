@@ -1,0 +1,30 @@
+//Mixins
+
+@mixin texts ($size, $interlineado, $color) {
+    font-size: $size;
+    line-height: $interlineado;
+    color: $color;
+}
+
+// Extends
+
+.btn-primary{
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-bottom: 1rem;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: 0.2s;
+    &:hover{
+        background-color: darkgreen;
+    }
+}
+
+.btn-rounded{
+    @extend .btn-primary;
+    border-radius: 3px;
+}

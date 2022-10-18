@@ -1,7 +1,6 @@
 figcaption{
-    color: black;
+    @include texts ($text-small, 4.3rem,$text-color);
     text-align: center;
-    font-size: large;
     padding-top: 3rem;
     padding-right: 5rem;
     padding-bottom: 3rem;
@@ -37,8 +36,7 @@ figcaption{
     opacity: 1;
 }
 .text {
+    @include texts ($text-xsmall,none,$text-color);
     background-color: whitesmoke;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
     padding: 16px 32px;
 }
