@@ -47,6 +47,26 @@ h3 {
   padding-left: 6rem;
 }
 
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.form-label {
+  font-size: 1.8rem;
+}
+
+.form-control {
+  font-size: 1.3rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+}
+
 .btn-primary, .btn-rounded {
   width: 100px;
   height: 30px;
